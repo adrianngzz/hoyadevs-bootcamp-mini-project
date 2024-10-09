@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.main-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 40%;
+}
+
+.left h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.left p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.inner-left {
+  background-color: #4384D1;
+  margin: 12px;
+  margin-left: 0px;
+  border: 1px solid #4384D1;
+  border-radius: 4px;
+}
+
+.inner-left a {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+#github p {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 4px;
+}
+
+#github img {
+  width: 24px;
+  padding: 4px;
+  padding-left: 24px;
+}
+
+.inner-right {
+  border: 1px solid #4384D1;
+  border-radius: 4px;
+}
+
+.inner-right a {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: #4384D1;
+}
+
+#linkedin p {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 4px;
+}
+
+#linkedin img {
+  width: 18px;
+  padding: 4px;
+  padding-left: 24px;
+}
